@@ -4,38 +4,87 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Samuel Vega Quick Bio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Oswald:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>HTML Forms Assignment</title>
   </head>
   <body>
-    <img src="./assets/website (1).jpg" height="214" width="192.4" />
-    <h1>Samuel Vega III</h1>
-    <h3>Fullstack Web Development</h3>
-    <p>I love to do creative things and always up for a challenge.</p>
-    <ul>
-      <h4>Goals for the <u>Reskill Americans</u> program:</h4>
-      <li>
-        Learn as much about web development during the course of the program
-      </li>
-      <li>
-        Try to pinpoint which skills are the most marketable to transition into
-        the field
-      </li>
-      <li>
-        See what jobs I could see myself doing with the skills I have acquired
-      </li>
-      <li>Network with other skilled and likeminded creatives</li>
-      <li>
-        Create websites to promote and increase revenue for my art businesses
-      </li>
-      <li>Learn how to integrate a store for my business website</li>
-      <li>
-        Become proficient with CSS to create a one of a kind and personalized
-        site experience
-      </li>
-      <li>
-        Learn how to integrate an automated way for customers to book services
-      </li>
-      <li>Learn how to create a mobile app</li>
-    </ul>
+    <div class="container">
+      <div class="top-navigation">
+        <img
+          src="./assets/Shield logo_final_simple V_greytransparent.png"
+          alt=""
+          height="120 rem"
+          width="120 rem"
+          padding="3rem"
+        />
+        <div class="top-navigation-left">
+          <div class="top-navigation-links">
+            <a href="">Events</a>
+            <a href="">Reservations</a>
+            <a href="">Photos</a>
+            <a href="./contactform.html">Contact Us</a>
+          </div>
+        </div>
+        <div class="top-navigation-right">
+          <a href="">My Account</a>
+          <a href="">Store</a>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="flexbox-container">
+        <div class="card">
+          <img
+            class="card-image"
+            src="./assets/instructing.JPG"
+            alt="Step by step instruction"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h4>
+              <a href=""><b>Paint Events</b></a>
+            </h4>
+            <p>Step by step instructions.</p>
+            <button type="button">$45/person</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-image"
+            src="./assets/birthday_party.jpg"
+            alt="Step by step instruction"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h4>
+              <a href=""><b>Birthday Parties</b></a>
+            </h4>
+            <p>A fun experience for all ages.</p>
+            <button type="button">$35/person</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-image"
+            src="./assets/fundraiser.jpg"
+            alt="Step by step instruction"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h4>
+              <a href=""><b>Fundraiser</b></a>
+            </h4>
+            <p>Raise funds for a great cause.</p>
+            <button type="button">$65/person</button>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
